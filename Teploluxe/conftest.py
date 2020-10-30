@@ -6,8 +6,8 @@ def report_on_discord(message, file=None):
     
     bot_name = "Отчетов повелитель"
     
-    webhook = Webhook.partial(601678713838501888,
-                              'UNXBaQLPmha6jxC6TiqO353BtmIkw5IAnX_X6FyOCZEZFvPA4aIA66xFLuPSaSn-QOlg',
+    webhook = Webhook.partial(11111111111,
+                              '*****',
                               adapter=RequestsWebhookAdapter())
     webhook.send(message, username=bot_name, file=file)
 
